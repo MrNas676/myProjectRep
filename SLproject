@@ -142,8 +142,7 @@ File f1 = new File("myFolder");
 
         String fileName = this.userIput();
         
-    	 File file
-         = new File("D:\\Eclipse\\MyFirstJava\\fileName.txt");
+    	 File file = new File("D:\\Eclipse\\MyFirstJava\\fileName.txt"); // change path
 
 	     if (file.delete()) {
 	         System.out.println("File has been deleted ");
@@ -160,7 +159,7 @@ File f1 = new File("myFolder");
 
         String fileName = this.userIput();
         
-    	 File file = new File("D:\\Eclipse\\MyFirstJava\\fileName.txt");
+    	 File file = new File("D:\\Eclipse\\MyFirstJava\\fileName.txt"); // Change path
 
 	     if (file != null) {
 	         System.out.println("File does exist");
