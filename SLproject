@@ -35,6 +35,7 @@ public class whatever {
     
     public void helloMessage() {
     	System.out.println("Hello and welcome to LockedMe.com");
+        System.out.println("This project has been developed bu Naser Morshed.");
         System.out.println("");
 
     }
